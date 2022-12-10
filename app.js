@@ -25,7 +25,7 @@ const corsOptions = {
   optionSuccessStatus: 200,
 };
 
-const MONGODB_URI = process.env.MONGO_URI;
+const MONGODB_URI = "mongodb+srv://root:8349727696@cluster0.suc8sow.mongodb.net/main?retryWrites=true&w=majority";
 
 const app = express();
 app.use(cors(corsOptions));
